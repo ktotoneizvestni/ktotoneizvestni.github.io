@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+body{
+    background: url(bg.jpg);
+    background-attachment: fixed; 
+}
+header{
+    padding: 10px 5%;
+    background-color: #ff7fe7;
+}
+header>*{
+    display: inline-block;
+    width: 450px;
+}
+.emptiness{
+    height: 150px;
+}
+a{
+    color: white;
+}
+nav {
+background-color: #ff7fe7;
+overflow: hidden;
+}
+nav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+nav a:hover {
+background-color: #ff56e0;
+color: #ffcae7;
+}
+.nov{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    color: #ff4ade;
+}
+p{
+    color: #ff7fe7;
+}
+.novi{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.mag{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.d{
+    display: flex;
+    border: 1px solid #ff4ade;
+    height: 250px;
+    width: 200px;
+    border-radius: 4px;
+    flex-direction: column;
+    align-items: center;
+}
+.x3{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid #ff4ade;
+    width: 60px;
+    border-radius: 4px;
+}
